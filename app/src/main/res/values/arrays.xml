@@ -1,0 +1,45 @@
+<resources>
+    <!-- View Preference -->
+    <string-array name="view_entries">
+        <item>Стандартный вид</item>
+        <item>Своя тема</item>
+    </string-array>
+
+    <string-array name="view_values">
+        <item>standart</item>
+        <item>costom_theme</item>
+    </string-array>
+
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+    <!-- View Preference -->
+    <string-array name="list_entries">
+        <item>Вертикальный список</item>
+        <item>Карточки</item>
+    </string-array>
+
+    <string-array name="list_values">
+        <item>list_ver</item>
+        <item>card</item>
+    </string-array>
+
+    <!-- View Preference -->
+    <string-array name="save_entries">
+        <item>Локальный файл</item>
+        <item>База данных</item>
+    </string-array>
+
+    <string-array name="save_values">
+        <item>local_file</item>
+        <item>DB</item>
+    </string-array>
+</resources>

@@ -1,0 +1,51 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/list_header">
+
+        <ListPreference
+            app:defaultValue="list_ver"
+            app:entries="@array/list_entries"
+            app:entryValues="@array/list_values"
+            app:key="list"
+            app:title="@string/list_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/save_header">
+
+        <ListPreference
+            app:defaultValue="local_file"
+            app:entries="@array/save_entries"
+            app:entryValues="@array/save_values"
+            app:key="save_file"
+            app:title="@string/save_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/view_header">
+
+        <ListPreference
+            app:defaultValue="standart"
+            app:entries="@array/view_entries"
+            app:entryValues="@array/view_values"
+            app:key="view"
+            app:title="@string/view_title"
+            app:useSimpleSummaryProvider="true" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/vid_header">
+
+        <SwitchPreferenceCompat
+            app:enabled="true"
+            app:key="dark_theme"
+            app:summaryOff="@string/theme_summary_off"
+            app:summaryOn="@string/theme_summary_on"
+            app:title="@string/dark_theme_title" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
